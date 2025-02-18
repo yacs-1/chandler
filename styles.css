@@ -1,3 +1,4 @@
+
 body{
   background color:eb4242
 color:black;
@@ -22,5 +23,27 @@ h2.heading{
   font-size:200%;
   
 }
-
-
+.bordered{
+  border-style:solid;
+  border-color:white;
+  border-width:6px;
+  padding:5px;
+  margin:20px;
+  border-radius:20px;
+  background-color:pink;
+      
+}
+a{
+  text-decoration:none;
+  font-weight:700;
+  color:red;
+}
+a:hover,a:visited{
+  color:orange
+}
+hr{
+  height:2px;
+  border:0px;
+  background-color:red
+    
+}
