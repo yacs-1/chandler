@@ -1,1 +1,43 @@
+#content{
+  border:solid 2px;
+  width:50%;
+  
+}
+#album{
+  border:solid 2px;
+  width:30%
+}
+#info{
+  border:solid 2px;
+ max-width:20%;
+  float:left;
+  
+}
+#player audio::-webkit-media-controls-play-button{
+  display:none
+}
+#content,#album,#info{
+  position:float;
+  float:left
+}
+body{
+  
+}
+#player button{
+  float:left;
+}
 
+#banner{
+  width:100vw;
+  height:50vw 
+}
+#record{
+  width:40vw
+}
+
+
+
+
+function playtrack(){
+  document.querySelector("audio")
+}
