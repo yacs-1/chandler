@@ -1,0 +1,17 @@
+#text{
+  color:white;
+}
+
+body{
+  margin:0;
+  color:black;
+}
+#To Do List{
+  list-style-type:none;
+}
+#rose{
+  width:100vw;
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+}
