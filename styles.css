@@ -45,3 +45,37 @@ hr{
   background-color:red
     
 }
+
+#nav-list {
+  display:flex;
+  justify-content:center;
+  list-style-type:none;
+  postion:relative;
+  background-color:#fff;
+}
+#nav-list ul{
+  display:none;
+
+}
+#nav-list li{
+  width:15%;
+  display:inline-block;
+  flew-grow:1;
+}
+
+#nav-list li:hover{
+  background-color:#fcbbbb;
+  color:fff;
+}
+
+#nav-list:hover ul{
+  display:block;
+}
+
+#nav-list li ul{
+  list-style-type:none;
+  padding:0px;
+  postion:absolute;
+  
+  
+}
