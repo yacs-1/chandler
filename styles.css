@@ -47,8 +47,10 @@ hr{
 }
 
 #nav-list {
+  padding:0px;
   display:flex;
   justify-content:center;
+  align-content:center;
   list-style-type:none;
   postion:relative;
   background-color:#fff;
@@ -61,6 +63,10 @@ hr{
   width:15%;
   display:inline-block;
   flew-grow:1;
+  display:block;
+  position:relative;
+  text-align:center;
+  margin:auto;
 }
 
 #nav-list li:hover{
@@ -76,6 +82,11 @@ hr{
   list-style-type:none;
   padding:0px;
   postion:absolute;
+  width:100%;
   
   
+}
+#nav-list a{
+  display:inline-block;
+  width:100%;
 }
