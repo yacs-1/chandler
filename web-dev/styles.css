@@ -20,12 +20,12 @@ h2.heading {
 
 .bordered {
   border-style: solid;
-  border-color: #d3dbec;
+  border-color: #eb4b5b;
   border-width: 3px;
   padding: 7px;
   border-radius: 15px;
   margin: 9px;
-  background-color: #d3dbec;
+  background-color: #eb4b5b;
   color: #eb4b5b;
 }
 
